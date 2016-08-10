@@ -1,8 +1,5 @@
 [user]
-  name = "Matthew Rankin"
-	; email = matthewrankin@users.noreply.github.com
-;[include]
-  ;path = ~/.gitconfig.local
+  name = "Adam Lewis"
 [color]
   ui = auto
 [alias]
@@ -18,10 +15,8 @@
   ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   stash-unapply = !git stash show -p | git apply -R
 [core]
-  excludesfile = /Users/matthew/.gitignore
-  editor = vim -f
-[gui]
-  recentrepo = /Users/matthew/development/python/cloneqsvn
+  excludesfile = /Users/alewis/.gitignore
+  editor = mvim -f
 [push]
   default = simple
 [difftool "sourcetree"]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009-2016 Matthew Rankin. All rights reserved.
-# Project site: https://github.com/matthewrankin/dotfiles
+# Copyright (c) 2009-2016 Adam Lewis. All rights reserved.
+# Project site: https://github.com/aclewis182/dotfiles
 # Use of this source code is governed by a MIT-style license that
 # can be found in the LICENSE.txt file for the project.
 """Deploy dot-files
@@ -23,20 +23,10 @@ dot_files_to_deploy = (
     '.bash_aliases',
     '.bash_profile',
     '.bashrc',
-    '.chktexrc',
     '.git-completion.bash',
     '.gitconfig',
     '.gitconfig.local',
     '.gitignore',
-    '.gvimrc.after',
-    '.gvimrc.before',
-    '.hgrc',
-    '.inputrc',
-    '.npmrc',
-    '.rvmrc',
-    '.tmux.conf',
-    '.vimrc.after',
-    '.vimrc.before',
 )
 
 

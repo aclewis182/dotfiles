@@ -1,1 +1,0 @@
-color ir_black

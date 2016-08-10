@@ -1,7 +1,0 @@
-# This is a Mercurial configuration file.
-[ui]
-username = Matthew Rankin <matthew@cumulusware.com>
-
-[extensions]
-hgext.convert = 
-hgext.graphlog = 

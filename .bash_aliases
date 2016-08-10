@@ -24,9 +24,14 @@ alias 'hg=history | grep'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias ..l='cd ..; l'
+alias ..la='cd ..; lla'
 
 # Alias Vim
 alias v='vim'
+
+# Alias for Visual Studio Code
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 # Aliases for Node
 alias npmout='npm outdated -g --depth=0'
