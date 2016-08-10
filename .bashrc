@@ -33,7 +33,6 @@ if [ "${os_name}" = 'Darwin' ]; then
   # Set the command prompt
   if [ -n "$PS1" ]; then
     PS1='\[\e[01;32m\]\u@\h\[\e[m\]:\[\e[01;34m\]\w\[\e[m\]\n$ '
-    PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
   fi
 
   # Enable git bash completion (installed via Homebrew)
