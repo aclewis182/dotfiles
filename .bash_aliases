@@ -1,14 +1,14 @@
 # MDR 7/07/08 -- Created this file (~/.bash_aliases) to contain aliases
 
 # Alias ls to enable color support
-if [ "$TERM" != "dumb" ]; then
-    if [ "$os_name" == 'Darwin' ]; then
-        alias ls='ls -G'
-    elif [ "$os_name" == 'Linux' ]; then
-        eval "`dircolors -b`"
-        alias ls='ls --color=auto'
-    fi
-fi
+#if [ "$TERM" != "dumb" ]; then
+#    if [ "$os_name" == 'Darwin' ]; then
+#        alias ls='ls -G'
+#    elif [ "$os_name" == 'Linux' ]; then
+#        eval "`dircolors -b`"
+#        alias ls='ls --color=auto'
+#    fi
+#fi
 
 # Alias ls some more
 alias lla='ls -lAF'
