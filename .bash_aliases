@@ -30,9 +30,6 @@ alias ..la='cd ..; lla'
 # Alias Vim
 alias v='vim'
 
-# Alias for Visual Studio Code
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
 # Aliases for Node
 alias npmout='npm outdated -g --depth=0'
 
@@ -52,6 +49,7 @@ alias gst='git status'
 alias gb='git branch'
 alias gba='git branch -a'
 alias glog='git log --oneline --graph'
+alias gflow='git-flow'
 
 # Alias Apache2 if the file /etc/init.d/apache2 exists
 if [ -f /etc/init.d/apache2 ]; then

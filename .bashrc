@@ -104,5 +104,7 @@ elif [ "${os_name}" = 'Linux' ]; then
 fi
 
 ### Add Go
-export GOPATH=$HOME/development/go
+export GOPATH=$HOME/work/go
 export PATH="$GOPATH/bin:$PATH"
+
+export PATH="$PATH:/Applications/microchip/xc8/v1.41/bin"

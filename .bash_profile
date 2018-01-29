@@ -59,8 +59,6 @@ if [ ${os_name} == 'Darwin' ]; then
     else
       echo "WARNING: Can't find virtualenvwrapper"
     fi
-
-
 fi
 
 ###################################
@@ -78,3 +76,5 @@ if [ ${os_name} == 'Linux' ]; then
         . /usr/local/bin/virtualenvwrapper.sh
     fi
 fi
+
+export PATH="$PATH:/Applications/microchip/xc8/v1.41/bin"
